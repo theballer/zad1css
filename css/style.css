@@ -2,12 +2,37 @@
     position: relative;
     width: 600px;
     height: 600px;
-    background: red;
     border-width: 2px;
     border-style: solid;
     border-color: silver;
 }
-/*kont1 blue-circle grey*/
+/*kont red - circle pink*/
+#kontener #kont {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-width: 2px;
+    border-style: solid;
+    border-color: silver;
+    top: 0;
+    left: 0;
+}
+#kontener #kont #span {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background: pink;
+    top: 50px;
+    left: 50px;
+}
+/*kont red - circle pink end*/
+
+/*kont1 blue - circle grey*/
 #kontener #kont1 {
     position: absolute;
     width: 200px;
@@ -31,9 +56,9 @@
     top: 50px;
     left: 50px;
 }
-/*kont1 blue-circle grey end*/
+/*kont1 blue - circle grey end*/
 
-/*kont2 green-circle darkviolet*/
+/*kont2 green - circle darkviolet*/
 #kontener #kont2 {
     position: absolute;
     width: 200px;
@@ -45,4 +70,68 @@
     top: 0;
     right: 0;
 }
+#kontener #kont2 #span2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background: darkviolet;
+    top: 50px;
+    left: 50px;
+}
+/*kont2 green - circle darkviolet end*/
 
+/*kont3 yellow - circle green*/
+#kontener #kont3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    top: 200px;
+    left: 0;
+}
+#kontener #kont3 #span3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background: green;
+    top: 50px;
+    left: 50px;
+}
+/*kont3 yellow - circle green end*/
+
+/*kont4 black - circle red*/
+#kontener #kont4 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: black;
+    border: 2px;
+    border-style: solid;
+    border-color: silver;
+    top: 200px;
+    left: 200px;
+}
+#kontener #kont4 #span4 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px;
+    border-style: solid;
+    border-color: silver;
+    background: red;
+    top: 50px;
+    left: 50px;
+}
+/*kont4 black - circle red end*/
