@@ -1,0 +1,48 @@
+#kontener {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background: red;
+    border-width: 2px;
+    border-style: solid;
+    border-color: silver;
+}
+/*kont1 blue-circle grey*/
+#kontener #kont1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: blue;
+    border-width: 2px;
+    border-style: solid;
+    border-color: silver;
+    top: 0;
+    left: 200px;
+}
+#kontener #kont1 #span1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background: grey;
+    top: 50px;
+    left: 50px;
+}
+/*kont1 blue-circle grey end*/
+
+/*kont2 green-circle darkviolet*/
+#kontener #kont2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: green;
+    border-width: 2px;
+    border-style: solid;
+    border-color: silver;
+    top: 0;
+    right: 0;
+}
+
