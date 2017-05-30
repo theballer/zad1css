@@ -1,3 +1,5 @@
+/*Kontener główny*/
+
 #kontener {
     position: relative;
     width: 600px;
@@ -6,19 +8,29 @@
     border-style: solid;
     border-color: silver;
 }
-/*kont red - circle pink*/
-#kontener #kont {
+
+
+/*Kontener główny END*/
+
+
+/*.kont właściwości*/
+
+#kontener .kont {
     position: absolute;
     width: 196px;
     height: 196px;
-    background: red;
     border-width: 2px;
     border-style: solid;
     border-color: silver;
-    top: 0;
-    left: 0;
 }
-#kontener #kont #span {
+
+
+/*.kont właściwości*/
+
+
+/*.circle*/
+
+#kontener .kont .circle {
     position: absolute;
     width: 100px;
     height: 100px;
@@ -26,216 +38,105 @@
     border-width: 1px;
     border-style: solid;
     border-color: black;
-    background: pink;
     top: 50px;
     left: 50px;
 }
-/*kont red - circle pink end*/
 
-/*kont1 blue - circle grey*/
-#kontener #kont1 {
-    position: absolute;
-    width: 196px;
-    height: 196px;
-    background: blue;
-    border-width: 2px;
-    border-style: solid;
-    border-color: silver;
-    top: 0;
-    left: 200px;
-}
-#kontener #kont1 #span1 {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    background: grey;
-    top: 50px;
-    left: 50px;
-}
-/*kont1 blue - circle grey end*/
 
-/*kont2 green - circle darkviolet*/
-#kontener #kont2 {
-    position: absolute;
-    width: 196px;
-    height: 196px;
-    background: green;
-    border-width: 2px;
-    border-style: solid;
-    border-color: silver;
-    top: 0;
-    right: 0;
-}
-#kontener #kont2 #span2 {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    background: darkviolet;
-    top: 50px;
-    left: 50px;
-}
-/*kont2 green - circle darkviolet end*/
+/*.circle właściwości*/
 
-/*kont3 yellow - circle green*/
-#kontener #kont3 {
-    position: absolute;
-    width: 196px;
-    height: 196px;
-    background: yellow;
-    border: 2px;
-    border-style: solid;
-    border-color: silver;
-    top: 200px;
-    left: 0;
-}
-#kontener #kont3 #span3 {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    background: green;
-    top: 50px;
-    left: 50px;
-}
-/*kont3 yellow - circle green end*/
 
-/*kont4 black - circle red*/
-#kontener #kont4 {
-    position: absolute;
-    width: 196px;
-    height: 196px;
-    background: black;
-    border: 2px;
-    border-style: solid;
-    border-color: silver;
-    top: 200px;
-    left: 200px;
-}
-#kontener #kont4 #span4 {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
+/*.item$ / .ring$ pozycja i kolor*/
+
+#item1 {
     background: red;
-    top: 50px;
-    left: 50px;
+    top: 0;
+    left: 0;
 }
-/*kont4 black - circle red end*/
 
-/*kont5 orange - circle blue*/
-#kontener #kont5 {
-    position: absolute;
-    width: 196px;
-    height: 196px;
+#ring1 {
+    background: pink;
+}
+
+#item2 {
+    background: blue;
+    top: 0;
+    left: 200px;
+}
+
+#ring2 {
+    background: grey;
+}
+
+#item3 {
+    background: green;
+    top: 0;
+    right: 0;
+}
+
+#ring3 {
+    background: darkviolet;
+}
+
+#item4 {
+    background: yellow;
+    top: 200px;
+    left: 0;
+}
+
+#ring4 {
+    background: green;
+}
+
+#item5 {
+    background: black;
+    top: 200px;
+    left: 200px;
+}
+
+#ring5 {
+    background: red;
+}
+
+#item6 {
     background: orange;
-    border: 2px;
-    border-style: solid;
-    border-color: silver;
     top: 200px;
     right: 0;
 }
-#kontener #kont5 #span5 {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    background: blue;
-    top: 50px;
-    left: 50px;
-}
-/*kont5 orange - circle blue end*/
 
-/*kont6 darkviolet - circle orange*/
-#kontener #kont6 {
-    position: absolute;
-    width: 196px;
-    height: 196px;
+#ring6 {
+    background: blue;
+}
+
+#item7 {
     background: darkviolet;
-    border: 2px;
-    border-style: solid;
-    border-color: silver;
     top: 400px;
     left: 0;
 }
-#kontener #kont6 #span6 {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    background: orange;
-    top: 50px;
-    left: 50px;
-}
-/*kont6 darkviolet - circle orange end*/
 
-/*kont7 grey - circle yellow*/
-#kontener #kont7 {
-    position: absolute;
-    width: 196px;
-    height: 196px;
+#ring7 {
+    background: orange;
+}
+
+#item8 {
     background: grey;
-    border: 2px;
-    border-style: solid;
-    border-color: silver;
     top: 400px;
     left: 200px;
 }
-#kontener #kont7 #span7 {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    background: yellow;
-    top: 50px;
-    left: 50px;
-}
-/*kont7 grey - circle yellow end*/
 
-/*kont8 pink - circle black*/
-#kontener #kont8 {
-    position: absolute;
-    width: 196px;
-    height: 196px;
+#ring8 {
+    background: yellow;
+}
+
+#item9 {
     background: pink;
-    border: 2px;
-    border-style: solid;
-    border-color: silver;
     top: 400px;
     right: 0;
 }
-#kontener #kont8 #span8 {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
+
+#ring9 {
     background: black;
-    top: 50px;
-    left: 50px;
 }
-/*kont8 pink - circle black end*/
+
+
+/*.item$ / .ring$ pozycja i kolor*/
